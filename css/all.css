@@ -1,0 +1,137 @@
+body{
+    font-family: "Microsoft JhengHei",serif;
+}
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+/* Utilities */
+.py-1 {
+    padding: 8px 0 8px 0;
+}
+.pb-2{
+    padding-bottom: 16px;
+}
+.pl-3{
+    padding-left: 24px;
+}
+.py-3 {
+    padding: 24px 0 24px 0;
+}
+.py-5 {
+    padding: 48px 0 48px 0;
+}
+.ml-3{
+    margin-left: 24px;
+}
+.mb-6{
+    margin-bottom: 72px;
+}
+
+/* section */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 24px;
+}
+
+.container-fluid {
+    background: #415165;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+}
+/* 標題 */
+.resumeName{
+    font-size: 80px;
+    line-height: 94px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 17px;
+}
+
+.mainTitle ,.title{
+    font-size: 32px;
+    line-height: 45px;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+.mainTitle{
+    border-bottom: 1px solid #000;
+}
+
+.title{
+    border-bottom: 1px solid #fff;
+}
+
+.mainTitle .subTitle {
+    color: #A00404;
+}
+.subTitle{
+    font-size: 24px;
+    line-height: 28px;
+    padding-left: 16px;
+    font-weight:700 ;
+}
+
+
+/* border */
+.main-borderLeft{
+    border-left: 1px solid #000;
+}
+.sub-borderLeft{
+    border-left: 1px solid #fff;
+}
+
+/* ul li 設定 */
+.list-group{
+    margin-bottom: 72px;
+    line-height: 36px;
+}
+.list-group-item{
+    padding-bottom: 24px;
+}
+.list-group-content{
+    font-size: 20px;
+    line-height: 30px;
+}
+.list-group-itemPb0{
+    padding-bottom: 0;
+}
+
+/* 技能 */
+
+.skills-section {
+    max-width: 996px;
+    margin: 0 auto;
+}
+.skillsList{
+    max-width: 235px; 
+    margin: 40px auto 12px auto;
+    text-align: left;
+    line-height: 36px;
+    border-left: 1px solid #fff;
+    padding-left: 24px;    
+}
+.skillsList-item{
+    padding-bottom: 20px;       
+}
+/* 工作經驗 */
+.hexContent{
+    max-width: 642px;
+}
+/* 聯絡我們 */
+.contactList-group{
+    line-height: 36px;
+}
+.contactLink{
+    color:#fff;
+}
+.contactLink:hover{
+    color:#5bd1d7;
+}
